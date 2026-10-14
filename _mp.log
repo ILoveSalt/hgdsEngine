@@ -1,0 +1,195 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for hgds.IloveGroup:client:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 29, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-shade-plugin is missing. @ line 33, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for hgds.IloveGroup:server:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 29, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-shade-plugin is missing. @ line 33, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for hgds.IloveGroup:mapcreate:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 29, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Kotlin smart defaults are enabled for core
+[INFO] Kotlin smart defaults are enabled for client
+[INFO] Kotlin smart defaults are enabled for server
+[INFO] Kotlin smart defaults are enabled for mapcreate
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] VoxelEngine-parent                                                 [pom]
+[INFO] core                                                               [jar]
+[INFO] client                                                             [jar]
+[INFO] server                                                             [jar]
+[INFO] mapcreate                                                          [jar]
+[INFO] 
+[INFO] -----------------< hgds.IloveGroup:VoxelEngine-parent >-----------------
+[INFO] Building VoxelEngine-parent 1.0-SNAPSHOT                           [1/5]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------------< hgds.IloveGroup:core >------------------------
+[INFO] Building core 1.0-SNAPSHOT                                         [2/5]
+[INFO]   from core\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:kapt (default-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (default-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-kapt (default-test-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (default-test-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (test-compile)'
+[INFO] 
+[INFO] --- kotlin:2.4.20:kapt (default-kapt) @ core ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\core\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ core ---
+[INFO] Copying 4213 resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (default-compile) @ core ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\core\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (compile) @ core ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\core\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-kapt (default-test-kapt) @ core ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ core ---
+[INFO] skip non existing resourceDirectory C:\project\VoxelEngine\core\src\test\resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-compile (default-test-compile) @ core ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-compile (test-compile) @ core ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ core ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ core ---
+[INFO] Building jar: C:\project\VoxelEngine\core\target\core-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< hgds.IloveGroup:client >-----------------------
+[INFO] Building client 1.0-SNAPSHOT                                       [3/5]
+[INFO]   from client\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:kapt (default-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (default-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-kapt (default-test-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (default-test-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (test-compile)'
+[INFO] 
+[INFO] --- kotlin:2.4.20:kapt (default-kapt) @ client ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\client\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ client ---
+[INFO] skip non existing resourceDirectory C:\project\VoxelEngine\client\src\main\resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (default-compile) @ client ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\client\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:742:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:990:17 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1016:21 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1244:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/render/PlayerModel.kt:432:13 Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of function types.
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (compile) @ client ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\client\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:742:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:990:17 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1016:21 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1244:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/render/PlayerModel.kt:432:13 Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of function types.
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-kapt (default-test-kapt) @ client ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ client ---
+[INFO] skip non existing resourceDirectory C:\project\VoxelEngine\client\src\test\resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-compile (default-test-compile) @ client ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:742:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:990:17 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1016:21 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1244:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/render/PlayerModel.kt:432:13 Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of function types.
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ client ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-compile (test-compile) @ client ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:742:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:990:17 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1016:21 Condition is always 'true'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/Main.kt:1244:31 Unnecessary safe call on a non-null receiver of type 'PlayerRenderer'.
+[WARNING] file:///C:/project/VoxelEngine/client/src/main/kotlin/hgds/IloveGroup/render/PlayerModel.kt:432:13 Expected performance impact from inlining is insignificant. Inlining works best for functions with parameters of function types.
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ client ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ client ---
+[INFO] Building jar: C:\project\VoxelEngine\client\target\client-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] -----------------------< hgds.IloveGroup:server >-----------------------
+[INFO] Building server 1.0-SNAPSHOT                                       [4/5]
+[INFO]   from server\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:kapt (default-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (default-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:compile (compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-kapt (default-test-kapt)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (default-test-compile)'
+[WARNING] Parameter 'testSourceDirs' is unknown for plugin 'kotlin-maven-plugin:2.4.20:test-compile (test-compile)'
+[INFO] 
+[INFO] --- kotlin:2.4.20:kapt (default-kapt) @ server ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\server\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:resources (default-resources) @ server ---
+[INFO] skip non existing resourceDirectory C:\project\VoxelEngine\server\src\main\resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (default-compile) @ server ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\server\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/server/src/main/kotlin/hgds/IloveGroup/server/ServerMain.kt:62:20 'fun readLine(): String?' is deprecated. Use `readln()` instead of `readLine()!!`, and `readlnOrNull()` instead of `readLine()`.
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] --- kotlin:2.4.20:compile (compile) @ server ---
+[WARNING] Source root doesn't exist: C:\project\VoxelEngine\server\src\main\java
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[WARNING] file:///C:/project/VoxelEngine/server/src/main/kotlin/hgds/IloveGroup/server/ServerMain.kt:62:20 'fun readLine(): String?' is deprecated. Use `readln()` instead of `readLine()!!`, and `readlnOrNull()` instead of `readLine()`.
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-kapt (default-test-kapt) @ server ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+[INFO] 
+[INFO] --- resources:3.3.0:testResources (default-testResources) @ server ---
+[INFO] skip non existing resourceDirectory C:\project\VoxelEngine\server\src\test\resources
+[INFO] 
+[INFO] --- kotlin:2.4.20:test-compile (default-test-compile) @ server ---
+[INFO] Options for KOTLIN DAEMON: CompilationOptions(compilerMode=NON_INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false)
+Завершить выполнение пакетного файла [Y(да)/N(нет)]? 
