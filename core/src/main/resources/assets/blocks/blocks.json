@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "blocks": [
+    {
+      "id": "grass_block",
+      "display_name": "Grass Block",
+      "solid": true,
+      "size": [1.0, 1.0, 1.0],
+      "faces": {
+        "top":    { "texture": "grass_top",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "bottom": { "texture": "dirt",       "uv": [0.0, 0.0, 1.0, 1.0] },
+        "north":  { "texture": "grass_side", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "south":  { "texture": "grass_side", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "west":   { "texture": "grass_side", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "east":   { "texture": "grass_side", "uv": [0.0, 0.0, 1.0, 1.0] }
+      }
+    },
+    {
+      "id": "dirt_block",
+      "display_name": "Dirt Block",
+      "solid": true,
+      "size": [1.0, 1.0, 1.0],
+      "faces": {
+        "top":    { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "bottom": { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "north":  { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "south":  { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "west":   { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] },
+        "east":   { "texture": "dirt",  "uv": [0.0, 0.0, 1.0, 1.0] }
+      }
+    },
+    {
+      "id": "stone_block",
+      "display_name": "Stone Block",
+      "solid": true,
+      "size": [1.0, 1.0, 1.0],
+      "faces": {
+        "top":    { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "bottom": { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "north":  { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "south":  { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "west":   { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "east":   { "texture": "stone", "uv": [0.0, 0.0, 1.0, 1.0] }
+      }
+    },
+    {
+      "id": "oak_log",
+      "display_name": "Oak Log",
+      "solid": true,
+      "size": [1.0, 1.0, 1.0],
+      "faces": {
+        "top":    { "texture": "oak_log_top", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "bottom": { "texture": "oak_log_top", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "north":  { "texture": "oak_log",     "uv": [0.0, 0.0, 1.0, 1.0] },
+        "south":  { "texture": "oak_log",     "uv": [0.0, 0.0, 1.0, 1.0] },
+        "west":   { "texture": "oak_log",     "uv": [0.0, 0.0, 1.0, 1.0] },
+        "east":   { "texture": "oak_log",     "uv": [0.0, 0.0, 1.0, 1.0] }
+      }
+    },
+    {
+      "id": "oak_leaves",
+      "display_name": "Oak Leaves",
+      "solid": true,
+      "size": [1.0, 1.0, 1.0],
+      "faces": {
+        "top":    { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "bottom": { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "north":  { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "south":  { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "west":   { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] },
+        "east":   { "texture": "oak_leaves", "uv": [0.0, 0.0, 1.0, 1.0] }
+      }
+    }
+  ]
+}

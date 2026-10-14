@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "atlas": {
+    "tile_size": 16,
+    "columns": 4,
+    "filter": "nearest"
+  },
+  "textures": [
+    { "name": "grass_top",  "file": "/block/grass_block_top.png", "tint": [145, 189, 89] },
+    { "name": "grass_side", "file": "/block/grass_block_side.png", "overlay": "/block/grass_block_side_overlay.png", "overlay_tint": [145, 189, 89] },
+    { "name": "dirt",       "file": "/block/dirt.png" },
+    { "name": "stone",      "file": "/block/stone.png" },
+    { "name": "oak_log",      "file": "/block/oak_log.png" },
+    { "name": "oak_log_top",  "file": "/block/oak_log_top.png" },
+    { "name": "oak_leaves",   "file": "/block/oak_leaves.png", "tint": [96, 160, 70] }
+  ]
+}

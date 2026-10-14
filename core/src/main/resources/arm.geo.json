@@ -1,0 +1,24 @@
+{
+	"format_version": "1.0",
+	"geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 4,
+				"texture_height": 4,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-7, 0, 5], "size": [4, 12, 4], "pivot": [-5, 6, 7], "rotation": [65, 0, 0], "uv": [-6, -3]}
+					]
+				}
+			]
+		}
+	]
+}
